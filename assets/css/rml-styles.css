@@ -1,0 +1,112 @@
+.rml-label {
+  margin-right: 10px;
+}
+
+.rml-input-container,
+.rml-textarea-container,
+.rml-input,
+.rml-textarea {
+  width: 100%;
+}
+
+.rml-textarea[readonly] {
+  padding: 10px;
+  font-family: Menlo, Consolas, monaco, monospace;
+  font-size: 13px;
+  resize: none;
+}
+
+.rml-textarea.block-type {
+  margin-top: 16px;
+}
+
+.rml-input-container {
+  position: relative;
+  margin-bottom: 10px;
+}
+
+.rml-input-container.large {
+  max-width: 550px;
+}
+
+.rml-input-icon {
+  position: absolute;
+  top: 6px;
+  right: 10px;
+  background-color: white;
+  cursor: pointer;
+}
+
+#minor-publishing {
+  display: none;
+}
+
+body.post-type-roomlio_room .wp-list-table .column-title {
+  width: 300px;
+}
+
+.underline-link {
+  text-decoration: underline;
+}
+
+.components-placeholder__fieldset select {
+  margin-right: 14px;
+}
+
+.room-placeholder-container {
+  padding: 20px 40px 8px 20px;
+  overflow: hidden;
+}
+
+.room-placeholder-container .components-placeholder__label {
+  font-size: 18px;
+}
+
+.skeleton-message {
+  width: 100%;
+  max-width: 600px;
+  height: 100px;
+  margin-bottom: 16px;
+}
+
+.header {
+  width: 150px;
+  height: 14px;
+  margin-bottom: 8px;
+  background-color: #ccc;
+  border-radius: 4px;
+}
+
+.text.short {
+  width: 80%;
+}
+
+.text {
+  width: 100%;
+  height: 12px;
+  margin-bottom: 8px;
+  background-color: #ccc;
+  border-radius: 4px;
+}
+
+.skeleton-input {
+  position: absolute;
+  bottom: 8px;
+  width: calc(100% - 40px);
+  height: 32px;
+  background-color: #ccc;
+  border-radius: 4px;
+}
+
+.rml-settings-form,
+.rml-setup-steps {
+  display: none;
+}
+
+#menu-posts-roomlio_room .wp-menu-image img {
+  padding-top: 8px;
+}
+
+#the-list .type-roomlio_room .row-actions .inline {
+  display: none;
+}
